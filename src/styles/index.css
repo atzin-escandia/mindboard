@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+	font-family: "Poppins", sans-serif;
+	--bg-main-color: #f9edff;
+	--bg-color: #ffffff;
+	--text-color: #111827;
+	--border-color: #000000;
+	--header-bg: #ffffff;
+	--header-text: #111827;
+	--pattern-color: #0000001a;
+}
+.dark {
+	--bg-main-color: #220523;
+	--bg-color: #000000;
+	--text-color: #bababa;
+	--border-color: #555555;
+	--header-bg: #000000;
+	--header-text: #ffffff;
+	--pattern-color: #ffffff1a;
+}
+
+body {
+	background-color: var(--bg-main-color);
+	transition: background-color 0.3s, color 0.3s;
+}
